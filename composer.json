@@ -1,0 +1,22 @@
+{
+    "name": "ricardohernandezg/laravel-mail-console",
+    "description": "Send email from outside Laravel using Laravel's functions and Blade",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Hernandez",
+            "email": "ricardohernandezg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 7.1.0",
+		"laravel/framework": ">= 9.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
